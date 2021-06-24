@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html>
-<title>Rules</title>
+    <head>
+        <title>New Hire Manual</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    </head>
 <body>
-    <nav class="dropdown">
-        <button class="dropdownbutton">Menu</button>
-        <div class="dropdowncontent">
-          <a href="index.html">Home</a>
-          <a href="rules.html">Rules</a>
-          <a href="cards.html">Cards</a>
-          <a href="strategy.html">Strategy</a>
-        </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Postal</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Links
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="rules.html">New Hire Manual (Rules)</a></li>
+                      <li><a class="dropdown-item" href="cards.html">Cards</a></li>  
+                      <li><a class="dropdown-item" href="strategy.html">Strategy</a></li>
+                      <li><a class="dropdown-item" href="login.html">Newsletter</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="store.html" tabindex="-1" aria-disabled="true">Store</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
     <h1>New Hire Manual</h1>
 <p>
     <h3>Setup</h3><br>
@@ -44,7 +70,7 @@
     Following the direction of play, the next personality begins their turn</li><br>
     <ul>
         <li>If the card you play moves the Sam, the postman, back to the Post Office then that turn immediately ends,
-     do not draw a card or resolve any actions on the last card played. You then receive a postal counter,
+     do not draw a card or resolve any 'THEN' actions on the last card played. You then receive a postal counter,
       and begin by discarding down to the allowed number of cards for your hand,
        or drawing to reach the allowed number of cards for your hand, if applicable. You then begin a new round with Sam,
         the postman, starting from the post office.</li>
@@ -55,12 +81,12 @@
     <h3>End of a year</h3>
     
     When a personality needs to draw a card but none remain in the draw pile, then that is the end of the year,
-     if at least 2 sane players remain then all cards except for the cards in personalities hands are shuffled
+     if at least 2 sane personalities remain then all cards except for the cards in personalities hands are shuffled
       into a new draw pile by the personality that was unable to draw and another year begins. <br>
     
     <h3>Winning</h3>
     
-    If there is only one sane personality left at the end of a year that personality wins the game
+    If there is only 1 sane personality left at the end of a year that personality wins the game
     
     If all personalities are postal at the end of a year then the personality with the most postal counters wins the game. If there is a tie for the hightest amount of postal counters then all personalities continue playing. When one personality has the sole highest amount of postal counters that personality immediately wins the game
     
@@ -106,4 +132,8 @@
 
             <li>Postal Variant - players race to be the first personality to get a 6th postal counter, each player's hand allowance is capped at 4 cards </li><br>
 </body>
+<footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</footer>
 </html>
